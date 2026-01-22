@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayesh R. | Data Analytics Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- 3D Tilt Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="logo">JAYESH</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content" data-tilt data-tilt-max="10" data-tilt-perspective="1000">
+            <h1 class="text-3d">PRAJAPATI <br><span>JAYESH R.</span></h1>
+            <p id="typewriter"></p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-3d">View My Projects</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Education & Summary -->
+    <section class="section">
+        <div class="summary-container" data-tilt>
+            <h2 class="title">Professional Summary</h2>
+            <p>Engineering student with strong foundations in data analytics and software development. Skilled in Python, Pandas, NumPy, and SQL. Currently pursuing B.Tech in Computer Engineering at Sigma Institute of Technology (Graduation 2026).</p>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="title">Technical Expertise</h2>
+        <div class="grid">
+            <div class="card-3d" data-tilt>
+                <div class="icon">📊</div>
+                <h3>Data Analytics</h3>
+                <p>Python, Pandas, NumPy, Matplotlib, Seaborn, Excel</p>
+            </div>
+            <div class="card-3d" data-tilt>
+                <div class="icon">🗄️</div>
+                <h3>Databases</h3>
+                <p>SQL, MySQL, Local Database Storage</p>
+            </div>
+            <div class="card-3d" data-tilt>
+                <div class="icon">💻</div>
+                <h3>Development</h3>
+                <p>Java, C/C++, API Handling, Sockets</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="title">Featured Projects</h2>
+        <div class="project-list">
+            <div class="project-card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                <div class="project-info">
+                    <span class="badge">Analytics</span>
+                    <h3>TSLA Stock Time-Series Forecasting</h3>
+                    <p>Performed full data preprocessing, cleaning, and EDA on real TSLA stock datasets to identify patterns and behaviors.</p>
+                    <div class="tags"><span>Python</span><span>Pandas</span><span>Matplotlib</span></div>
+                </div>
+            </div>
+
+            <div class="project-card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+                <div class="project-info">
+                    <span class="badge">Software</span>
+                    <h3>Local Network Chat Application</h3>
+                    <p>Built a LAN/Wi-Fi chat system using socket programming for fast device-to-device messaging with local database storage.</p>
+                    <div class="tags"><span>Python</span><span>Sockets</span><span>SQLite</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="title">Connect With Me</h2>
+        <div class="contact-grid">
+            <div class="card-3d" data-tilt>
+                <div class="icon">📍</div>
+                <h3>Location</h3>
+                <p>53, Punjibanagar Society, Manjalpur, Vadodara-390011</p>
+            </div>
+            <div class="card-3d" data-tilt>
+                <div class="icon">✉️</div>
+                <h3>Email</h3>
+                <p>jayeshprajapati2701@gmail.com</p>
+            </div>
+            <div class="card-3d social-card" data-tilt>
+                <div class="icon">🔗</div>
+                <h3>Social Profiles</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/jayesh-prajapati-6185653a7" target="_blank" class="social-btn">LinkedIn</a>
+                    <a href="https://github.com/jayeshprajapati2701-coder" target="_blank" class="social-btn">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Prajapati Jayesh R. | All Rights Reserved</p>
+    </footer>
+
+    <script src="javascrpit.js"></script>
+</body>
+</html>
